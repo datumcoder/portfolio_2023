@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import {AiOutlineHome, AiOutlineMenu,AiOutlineProject,AiOutlineMail} from 'react-icons/ai'
-
 import {BsPerson} from 'react-icons/bs'
 import {GrProjects} from 'react-icons/gr'
 
@@ -43,7 +42,7 @@ const Sidenav = () => {
         )
       :  (
           ""
-        )}
+        )};
 
 
           <div className='md:block hidden fixed top-[25%] z-10'>
@@ -51,7 +50,7 @@ const Sidenav = () => {
               <a href="main" className='rounded-full shadow-lg bg-white shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineHome size={20}/>
               </a>
-              <a href="skils" className='rounded-full shadow-lg   bg-white  shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <a href="skills" className='rounded-full shadow-lg   bg-white  shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <GrProjects size={20}/>
               </a>
               <a href="projects" className='rounded-full shadow-lg  bg-white  shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
