@@ -1,8 +1,6 @@
 import  Sidenav from './components/Sidenav'
-import  Main from './components/Main'
-// import Work from './components/Work'
-
-
+import  Home from './components/Home'
+import Resume from './components/Resume'
 
 
 
@@ -10,16 +8,12 @@ function App() {
   
   return (
     <div>
-    <Main />
-    <Sidenav />
-    {/* <Work/> */}
-   
-    
+          <Sidenav />
+          <Home />
+          <Resume/>
+</div>
   
-
-  
-    </div>
   )
-}
+};
 
 export default App

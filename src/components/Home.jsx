@@ -14,7 +14,7 @@ const Main = () => {
 
     <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center'>
       <h1 className='sm:text-5xl text-4xl font-bold text-[#001b5e]'>I'm Patrick O'Sullivan</h1>
-      <h2 className='flex sm:text-3xl text-2xl pt-4  text-[#001b5e]'>I'm a 
+      <h2 className='flex sm:text-3xl text-2xl pt-4  text-[#001b5e]'>I'm a  
       <TypeAnimation
       sequence={[
         
@@ -23,14 +23,13 @@ const Main = () => {
         ' Coder',
         2000,
         'Tech Enthusiast',
-        3000,
+        3000
       
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '2em', display: 'inline-block' }}
       repeat={Infinity}
-      style={{fontSize:'1em', paddingLeft:'5px' }}
+      style={{fontSize:'1em', paddingLeft:'4px' }}
     />
     </h2>
     <div className='flex justify-between pt-9 max-w-[300px] w-full'>
