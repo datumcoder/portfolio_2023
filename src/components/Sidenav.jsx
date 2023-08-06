@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import {
     AiOutlineHome,
@@ -15,7 +14,7 @@ const Sidenav = () => {
   };
   return (
     <div>
-      <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden'/>
+      <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] sm:hidden'/>
 
       {
         nav ? (
@@ -41,7 +40,7 @@ const Sidenav = () => {
         )
       :  (
           " "
-        )};
+        )}
 
 
           <div className='md:block hidden fixed top-[25%] z-10'>
@@ -61,11 +60,9 @@ const Sidenav = () => {
             </div>
           </div>
 
-
-
       </div> 
-      );
-    };
+      )
+    }
   
 
 export default Sidenav
