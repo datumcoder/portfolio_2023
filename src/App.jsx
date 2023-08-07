@@ -1,6 +1,7 @@
 import  Sidenav from './components/Sidenav'
-import  Home from './components/Home'
+import  Main from './components/Main'
 import Resume from './components/Resume'
+import Projects from './components/Projects'
 
 
 
@@ -9,8 +10,9 @@ function App() {
   return (
     <div>
           <Sidenav />
-          <Home />
+          <Main />
           <Resume/>
+          <Projects/>
 </div>
   
   )

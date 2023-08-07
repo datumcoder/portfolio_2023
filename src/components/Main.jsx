@@ -33,8 +33,8 @@ const Main = () => {
     />
     </h2>
     <div className='flex justify-between pt-9 max-w-[300px] w-full'>
-      <FaGithub className='cursor-pointer  text-[#001b5e] ' size={30} />
-      <FaLinkedin className='cursor-pointer  text-[#001b5e]' size={30}/>
+     <a href="https://github.com/datumcoder" target="_blank"><FaGithub className='cursor-pointer  text-[#001b5e] ' size={30} /></a> 
+     <a href="https://www.linkedin.com/in/posullivan365/" target="_blank"><FaLinkedin className='cursor-pointer  text-[#001b5e]' size={30}/></a>
       <FaTwitter className='cursor-pointer  text-[#001b5e]' size={30}/>
       <FaWhatsapp className='cursor-pointer  text-[#001b5e] ' size={30}/>
       </div>
