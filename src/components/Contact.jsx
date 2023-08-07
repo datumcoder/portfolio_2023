@@ -7,7 +7,7 @@ const Contact = () => {
       Contact
       </h1>
 
-      <form action="" method='POST' data-netlify="true">
+      <form name="contact" method='POST' netlify>
         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
           <div className='flex flex-col'>
             <label className='uppercase text-sm py-2 font-bold'>Name</label>
