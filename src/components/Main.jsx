@@ -13,8 +13,8 @@ const Main = () => {
     <div className="w-full h-screen absolute top-0 right-0 bg-white/50">
 
     <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center'>
-      <h1 className=' sm:text-4xl text base font-bold text-center text-[#001b5e]'>I'm Patrick O'Sullivan</h1>
-      <h2 className='flex sm:text-4xl md:text-4xl pt-4  text-[#001b5e]'>I'm a  
+      <h1 className=' sm:text-4xl text base font-bold text-center text-[#001b5e] font-[Raleway]'>I'm Patrick O'Sullivan</h1>
+      <h2 className='flex sm:text-2xl md:text-2xl pt-4 font-[Raleway] text-[#001b5e]'>I'm a  
       <TypeAnimation
       sequence={[
         
@@ -35,9 +35,11 @@ const Main = () => {
     <div className='flex justify-between pt-9 max-w-[300px] w-full'>
      <a href="https://github.com/datumcoder" target="_blank"><FaGithub className='cursor-pointer  text-[#001b5e] ' size={30} /></a> 
      <a href="https://www.linkedin.com/in/posullivan365/" target="_blank"><FaLinkedin className='cursor-pointer  text-[#001b5e]' size={30}/></a>
-      <FaTwitter className='cursor-pointer  text-[#001b5e]' size={30}/>
-      <FaWhatsapp className='cursor-pointer  text-[#001b5e] ' size={30}/>
+     <a href="https://twitter.com/Datumcoder" target="_blank"><FaTwitter className='cursor-pointer  text-[#001b5e]' size={30}/></a>
+    
+     
       </div>
+      
       
     </div>
     </div>
