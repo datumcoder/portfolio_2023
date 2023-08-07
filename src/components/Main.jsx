@@ -13,8 +13,8 @@ const Main = () => {
     <div className="w-full h-screen absolute top-0 right-0 bg-white/50">
 
     <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center'>
-      <h1 className='sm:text-5xl text-4xl font-bold text-[#001b5e]'>I'm Patrick O'Sullivan</h1>
-      <h2 className='flex sm:text-3xl text-2xl pt-4  text-[#001b5e]'>I'm a  
+      <h1 className=' sm:text-4xl text base font-bold text-center text-[#001b5e]'>I'm Patrick O'Sullivan</h1>
+      <h2 className='flex sm:text-4xl md:text-4xl pt-4  text-[#001b5e]'>I'm a  
       <TypeAnimation
       sequence={[
         
