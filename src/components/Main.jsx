@@ -38,14 +38,9 @@ const Main = () => {
      <a href="https://twitter.com/Datumcoder" target="_blank"><FaTwitter className='cursor-pointer  text-[#001b5e]' size={30}/></a>
     
      
+          </div>
+        </div>
       </div>
-      
-      
-    </div>
-    </div>
-
-
-
     </div>
 
   )

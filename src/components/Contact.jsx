@@ -2,39 +2,38 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id='contact' className='max-w[1040px] m-auto md:pl-20 p4 py-16'>
+    <div className='max-w[1040px] m-auto md:pl-20 p4 py-16'>
       <h1 className='py-4 pb-5 text-4xl font-bold text-center text-[#001b5e] font-[Raleway]'>
       Contact
       </h1>
+      <div class="flex items-center h-screen w-full bg-gray-100">
+  <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
+    <h1 class="block w-full text-center text-grey-darkest mb-6"></h1>
 
-      <form name="contact" method='POST' data-netlify="true">
+    <form id='contact' class="mb-4 md:flex md:flex-wrap md:justify-between" name="contact" method='POST' data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
-        <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-          <div className='flex flex-col'>
-            <label className='uppercase text-sm py-2 font-bold'>Name</label>
-            <input className='border-2 rounded-lg p3 flex border-gray-300' type="text"  name='name'/>
-          </div>
-          <div className='flex flex-col'>
-            <label className='uppercase text-sm py-2 font-bold'>Phone</label>
-            <input className='border-2 rounded-lg p3 flex border-gray-300' type="text"  name='phone'/>
-          </div>
-        </div>
-        <div className='flex flex-col py-2'>
-        <label className='uppercase text-sm py-2 font-bold'>Email</label>
-            <input className='border-2 rounded-lg p3 flex border-gray-300' type="email"  name='email'/>
-        </div>
-        <div className='flex flex-col py-2'>
-        <label className='uppercase text-sm py-2 font-bold' >Subject</label>
-            <input className='border-2 rounded-lg p3 flex border-gray-300' type="text"  name='subject'/>
-        </div>
-        <div className='flex flex-col py-2'>
+      <div class="flex flex-col mb-4 md:w-1/2">
+        <label class="mb-2 uppercase tracking-wide font-bold text-lg text-grey-darkest" for="first_name">First Name</label>
+        <input class="border py-2 px-3 text-grey-darkest md:mr-2" type="text" name="first_name" id="first_name"/>
+      </div>
+      <div class="flex flex-col mb-4 md:w-1/2">
+        <label class="mb-2 uppercase font-bold text-lg text-grey-darkest md:ml-2" for="last_name">Last Name</label>
+        <input class="border py-2 px-3 text-grey-darkest md:ml-2" type="text" name="last_name" id="last_name"/>
+      </div>
+      <div class="flex flex-col mb-4 md:w-full">
+        <label class="mb-2 uppercase font-bold text-lg text-grey-darkest" for="email">Email</label>
+        <input class="border py-2 px-3 text-grey-darkest" type="email" name="email" id="email" />
+      </div>
+      <div class="flex flex-col mb-6 md:w-full">
         <label className='uppercase text-sm py-2 font-bold'>Message</label>
-            <textarea className='border-2 rounded-lg p-4 border-gray-300' rows="10"  name='message'/>
-        </div>
-        <button className='bg-[#001b5e] text-gray-200 mt-4 w-full p-4 rounded-lg font-bold'>
-          Send Message
-        </button>
-      </form>
+            <textarea className='border-2 rounded-lg p-4 border-gray-300' rows="7"  name='message'/>
+      </div>
+      <button class="bg-[#001b5e] text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+    
     </div>
   )
 }
