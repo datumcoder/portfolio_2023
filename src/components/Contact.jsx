@@ -10,7 +10,8 @@ const Contact = () => {
   <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
     <h1 class="block w-full text-center text-grey-darkest mb-6"></h1>
 
-    <form id='contact' class="mb-4 md:flex md:flex-wrap md:justify-between" name="contact" method="POST" data-netlify="true">
+    <form id='contact' class="mb-4 md:flex md:flex-wrap md:justify-between" 
+    name="contact" method="POST" data-netlify="true" onSubmit="submit">
       <input type="hidden" name="form-name" value="contact" />
       <div class="flex flex-col mb-4 md:w-full">
         <label class="mb-2 uppercase tracking-widest font-bold text-lg text-grey-darkest" for="first_name">Your Name</label>
@@ -26,6 +27,7 @@ const Contact = () => {
             <textarea className='border-2 rounded-lg p-4' rows="7"  name='message'/>
       </div>
       <button class="bg-[#001b5e] text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Submit</button>
+  
     </form>
     </div>
   </div>

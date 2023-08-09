@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import DateTimeDisplay from './components/DateTimeDisplay'
 
 
+
 function App() {
   
   return (
@@ -15,6 +16,7 @@ function App() {
           <Resume/>
           <Projects/>
           <Contact/>
+         
           <DateTimeDisplay/>
           
          
