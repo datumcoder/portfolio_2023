@@ -14,12 +14,12 @@ const Contact = () => {
     name="contact" method="POST" data-netlify="true" onSubmit="submit">
       <input type="hidden" name="form-name" value="contact" />
       <div class="flex flex-col mb-4 md:w-full">
-        <label class="mb-2 uppercase tracking-widest font-bold text-lg text-grey-darkest" for="first_name">Your Name</label>
+        <label class="mb-2 uppercase tracking-widest font-bold text-lg text-grey-darkest" htmlFor="first_name">Your Name</label>
         <input class="border py-2 px-3 text-grey-darkest md:mr-2" type="text" name="name" id="name"/>
       </div>
     
       <div class="flex flex-col mb-4 md:w-full">
-        <label class="mb-2 uppercase font-bold text-lg text-grey-darkest" for="email">Email</label>
+        <label class="mb-2 uppercase font-bold text-lg text-grey-darkest" htmlFor="email">Email</label>
         <input class="border py-2 px-3 text-grey-darkest" type="email" id="inputEmail" name="email" />
       </div>
       <div class="flex flex-col mb-6 md:w-full">
