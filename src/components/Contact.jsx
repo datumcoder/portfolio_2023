@@ -10,7 +10,7 @@ const Contact = () => {
   <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
     <h1 class="block w-full text-center text-grey-darkest mb-6"></h1>
 
-    <form id='contact' class="mb-4 md:flex md:flex-wrap md:justify-between" name="contact" method="POST">
+    <form id='contact' class="mb-4 md:flex md:flex-wrap md:justify-between" name="contact" method="POST" action="/success/">
    
       <input type="hidden" name="form-name" value="contact" />
       <div class="flex flex-col mb-4 md:w-full">

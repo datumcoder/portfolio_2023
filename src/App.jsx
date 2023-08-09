@@ -4,7 +4,7 @@ import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import DateTimeDisplay from './components/DateTimeDisplay'
-import Submitted from './components/Submitted '
+import Success from './components/Success'
 
 
 
@@ -17,7 +17,7 @@ function App() {
           <Resume/>
           <Projects/>
           <Contact/>
-          <Submitted/>
+          <Success/>
          
           <DateTimeDisplay/>
           
