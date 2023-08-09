@@ -7,6 +7,26 @@
     <title>patrickosullivan.dev</title>
   </head>
   <body>
+
+    <form id='contact' class="mb-4 md:flex md:flex-wrap md:justify-between" 
+    name="contact" method="POST" data-netlify="true" onSubmit="submit">
+      <input type="hidden" name="form-name" value="contact" />
+      <div class="flex flex-col mb-4 md:w-full">
+        <label class="mb-2 uppercase tracking-widest font-bold text-lg text-grey-darkest" htmlFor="first_name">Your Name</label>
+        <input class="border py-2 px-3 text-grey-darkest md:mr-2" type="text" name="name" id="name"/>
+      </div>
+    <form  name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input for="text" name="name"></input>
+        <input type="email" name="email" />
+        <textarea name='message'></textarea>
+    </form>
+
+
+
+
+
+
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
