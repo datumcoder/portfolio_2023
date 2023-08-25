@@ -24,7 +24,7 @@ const Contact = () => {
       </div>
       <div class="flex flex-col mb-6 md:w-full">
         <label className='uppercase text-sm py-2 font-bold'>Message</label>
-            <textarea required className='border-2 rounded-lg p-4' rows="7"  name='message'/>
+            <textarea resize-none required className='border-2 rounded-lg p-4' rows="7"  name='message'/>
       </div>
       <button class="bg-[#001b5e] text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Submit</button>
   
