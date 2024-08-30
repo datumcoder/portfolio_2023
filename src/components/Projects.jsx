@@ -29,7 +29,7 @@ const Projects = () => {
       <div>
         {" "}
         <div className="grid sm:grid-cols-2 gap-14">
-          <a href="https://brochow.school" target="blank">
+          <a href="https://brochow-school.netlify.app/" target="blank">
             <ProjectItem img={schoolImg} title="School" />
           </a>
           <a href="https://talknative.pl" target="blank">
