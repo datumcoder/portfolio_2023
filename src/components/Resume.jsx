@@ -11,7 +11,7 @@ const data = [
   },
 
   {
-    year: "Jan 2019-2023",
+    year: "Jan 2019- present",
     title: "English Language Teacher,Brochow School of English",
     location: "Wroclaw,Poland",
     responsibilities:
